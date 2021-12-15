@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 96.181%;
+  font-family: var(--font-barlow-condensed);
+  font-weight: 300;
+  margin-left: auto;
+  margin-top: 4rem;
+  z-index: 9;
+}
+
+
+@media (max-width: 48em){
+  .header{
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .header {
+    width: 90%;
+    justify-content: space-between;
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    z-index: 9;
+  }
+}

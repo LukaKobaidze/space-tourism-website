@@ -1,0 +1,26 @@
+.home-paragraph {
+  max-width: 44.4rem;
+}
+
+@media (max-width: 48em) {
+  .home-paragraph {
+    font-size: 2rem;
+    margin: 0 auto;
+    width: 72%;
+    max-width: none;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .home-paragraph {
+    width: 85%;
+  }
+}
+
+@media (max-width: 24.0625em) {
+  .home-paragraph {
+    width: 88%;
+    font-size: 15px;
+  }
+
+}

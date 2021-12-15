@@ -1,0 +1,23 @@
+.home-title{
+  font-size: 15rem;
+  margin-bottom: 2rem;
+}
+
+
+@media (max-width: 48em) {
+  .home-title{
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 35.9375em) {
+  .home-title {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 24.0625em) {
+  .home-title {
+    font-size: 80px;
+  }
+}

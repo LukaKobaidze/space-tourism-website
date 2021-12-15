@@ -1,0 +1,29 @@
+.title {
+  font-size: 5.6rem;
+  white-space: nowrap;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 78.125em) {
+  .title {
+    font-size: 4.6rem;
+  }
+}
+
+@media (max-width: 53.125em) {
+  .title {
+    font-size: 3.7rem;
+  }
+}
+@media (max-width: 48em) {
+  .title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 23.4375em){
+  .title {
+    font-size: 3rem;
+    white-space: initial;
+  }
+}

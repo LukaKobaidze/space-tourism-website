@@ -1,0 +1,162 @@
+main {
+  display: flex;
+}
+
+.main--home {
+  margin: 0 auto 10rem auto;
+  width: 77%;
+  justify-content: space-between;
+  padding-top: 28.5vh;
+}
+
+.main--destination {
+  margin: 0 auto;
+  width: 78%;
+  max-width: 120rem;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 17.7vh;
+  padding-left: 7.2rem;
+}
+
+.main--crew {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.main--technology {
+  justify-content: space-between;
+  align-items: center;
+  width: 88.5%;
+  margin-left: auto;
+  padding-top: 15vh;
+}
+
+@media (max-width: 78.125em) {
+  .main--destination {
+    width: 85%;
+  }
+  .main--crew {
+    left: calc(50% + 4.5rem);
+    width: 85%;
+  }
+}
+
+@media (max-width: 68.75em) {
+  .main--destination {
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 59.375em) {
+  .main--destination {
+    padding-left: 5rem;
+  }
+}
+
+@media (max-width: 53.125em) {
+  .main--crew {
+    width: 90%;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 51.5625em) {
+  .main--home {
+    width: 80%;
+  }
+}
+
+@media (min-width: 65.625em) and (max-height: 53.125em) {
+  .main--crew{
+    position: static;
+    margin: 0 auto;
+    transform: translateX(0);
+    padding-top: 2.6rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .main--home {
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem auto 5rem auto;
+    min-height: 75vh;
+    padding-top: 0;
+  }
+  .main--destination {
+    flex-direction: column;
+    align-items: center;
+    margin: 16rem auto 0 auto;
+    padding-left: 0;
+    padding-top: 0;
+    max-width: none;
+  }
+  .main--crew {
+    position: static;
+    transform: translateX(0);
+    flex-direction: column;
+    margin: 19rem auto 0 auto;
+    width: 100%;
+  }
+  .main--technology {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 15.3rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .main--home, .main--destination, .main--crew, .main--technology {
+    margin-top: 0;
+    padding-top: 20rem;
+  }
+
+  .main--home {
+    height: 90vh;
+    min-height: 765px;
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: 25.9375em) {
+  .main--home {
+    padding-top: 15rem;
+    min-height: 715px;
+  }
+
+  .main--crew {
+    padding-top: 16rem;
+    flex-direction: column-reverse;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 24.0625em) {
+  .main--home {
+    min-height: 640px;
+    width: 100%;
+    margin-bottom: 3rem;
+    padding-top: 13.7rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 23.4375em) {
+  .main--home {
+    min-height: 620px;
+  }
+  .main--destination {
+    padding-top: 17.5rem;
+  }
+ 
+}

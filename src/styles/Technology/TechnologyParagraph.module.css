@@ -1,0 +1,13 @@
+@media (max-width: 48em) {
+  .paragraph {
+    margin: 0 auto;
+    width: 78%;
+  }
+}
+
+@media (max-width: 23.4375em) {
+  .paragraph {
+    width: 85%;
+    font-size: 1.875rem;
+  }
+}

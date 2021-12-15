@@ -1,0 +1,7 @@
+@media (max-width: 48em) {
+  .image {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+

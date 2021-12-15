@@ -1,0 +1,14 @@
+.paragraph {
+  font-family: var(--font-barlow);
+  font-size: 1.8rem;
+  color: var(--cls-text-gray);
+  font-weight: 300;
+  line-height: 3.2rem;
+}
+
+@media (max-width: 48em){
+  .paragraph {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

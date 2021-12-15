@@ -1,0 +1,10 @@
+.icon {
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
+@media (max-width: 23.4375em){
+  .icon {
+    transform: scale(1);
+  }
+}

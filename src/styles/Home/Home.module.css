@@ -1,0 +1,14 @@
+.btn-div {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (max-width: 48em) {
+  .btn-div {
+    margin-top: 7rem;
+  }
+  .text-div{
+    width: 100%;
+    text-align: center;
+  }
+}

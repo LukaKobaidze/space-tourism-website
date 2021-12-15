@@ -1,0 +1,20 @@
+.subtitle {
+  color: rgba(255, 255, 255, 0.5042);
+  font-size: 3.2rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-bellefair);
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+@media (max-width: 71.875em){
+  .subtitle {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 25.9375em){
+  .subtitle {
+    font-size: 2rem;
+  }
+}

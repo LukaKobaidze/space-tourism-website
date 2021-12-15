@@ -1,0 +1,27 @@
+
+@media (max-width: 48em) {
+  .paragraph {
+    margin: 0 auto;
+    max-width: 582px;
+  }
+}
+
+@media (max-width: 40.625em) {
+  .paragraph {
+    max-width: none;
+    width: 90%;
+    min-height: 112px;
+  }
+}
+
+@media (max-width: 30.1875em) {
+  .paragraph {
+    min-height: 140px;
+  }
+}
+
+@media (max-width: 25.9375em){
+  .paragraph {
+    font-size: 1.875rem;
+  }
+}

@@ -1,0 +1,26 @@
+.crew-images {
+  top: initial;
+  bottom: 0;
+}
+
+@media (max-width: 48em) {
+  .crew-images {
+    top: 0;
+    bottom: initial;
+  }
+  .crew-images:nth-child(3),
+  .crew-images:nth-child(4) {
+    top: initial;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 25.9375em){
+  .crew-images {
+    width: 50%;
+    top: initial;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+  }
+}

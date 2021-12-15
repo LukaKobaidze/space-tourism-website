@@ -1,0 +1,17 @@
+.destination-title{
+  font-size: 10rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 68.75em){
+  .destination-title {
+    font-size: 9rem;
+  }
+}
+
+@media (max-width: 23.4375em){
+  .destination-title {
+    font-size: 56px;
+    margin-bottom: 0;
+  }
+}
