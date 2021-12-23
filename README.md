@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/space-tourism-website-using-react-react-router-css-modules-VduveXChF)
-- Live Site URL: [Add live site URL here](https://lukakobaidze-spacetourism.netlify.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/space-tourism-website-using-react-react-router-css-modules-VduveXChF)
+- Live Site URL: [Live site](https://lukakobaidze-spacetourism.netlify.app/)
 
 ## My process
 
