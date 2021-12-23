@@ -3,10 +3,11 @@ main {
 }
 
 .main--home {
-  margin: 0 auto 10rem auto;
+  margin: 0 auto 5rem auto;
   width: 77%;
   justify-content: space-between;
   padding-top: 28.5vh;
+  padding-bottom: 9rem;
 }
 
 .main--destination {
